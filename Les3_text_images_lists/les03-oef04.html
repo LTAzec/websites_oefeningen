@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      li {
+      ul {
+        list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: #333;
+      }
+
+      li {
         float: left;
       }
-      a {
+
+      li a {
         display: block;
-        width: 60px;
         color: white;
         text-align: center;
-        padding-top: 14px;
-        padding-bottom: 14px;
-        padding-left: 16px;
-        padding-right: 16px;
-        text-decoration-line: none;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
       }
       a:hover {
         background-color: #111;
@@ -35,13 +40,11 @@
     </style>
   </head>
   <body>
-    <p>
-      <ul>
-        <li><a class="active" href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-      </ul>
-    </p>
+    <ul>
+      <li><a class="active" href="default.asp">Home</a></li>
+      <li><a href="news.asp">News</a></li>
+      <li><a href="contact.asp">Contact</a></li>
+      <li><a href="about.asp">About</a></li>
+    </ul>
   </body>
 </html>
