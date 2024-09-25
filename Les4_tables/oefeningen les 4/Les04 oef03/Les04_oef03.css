@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+th {
+    border: 1px solid black;
+    height: 50px;
+    margin: 4px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    height: 50px;
+    margin: 4px;
+    text-align: center;
+}
+
+.eersteRijBreed {
+    background-color: lightgrey;
+    width: 200px;
+}
+
+.eersteRijSmal {
+    background-color: lightgrey;
+    width: 100px;
+}
+
+.ja {
+    background-color: green;
+}
+
+.nee {
+    background-color: red;
+}
+
+.kolomBreed {
+
+}
+
+.kolomSmal {
+    
+}

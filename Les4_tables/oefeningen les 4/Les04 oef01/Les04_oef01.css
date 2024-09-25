@@ -1,0 +1,29 @@
+.lijntje {
+    border-top: 1px solid #00293d;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    padding: 15px;
+    border: solid 1px grey;
+}
+
+#entiteit {
+    color: white;
+    background-color: #00293d;
+    text-align: center;
+}
+
+td {
+    border: solid 1px grey;
+    text-align: center;
+    padding: 15px;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 15px;
+}
