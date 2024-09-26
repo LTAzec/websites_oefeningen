@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    color: #ff6434;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    caption-side: bottom;
+    text-align: center;
+    }
+
+th {
+    border:1px solid lightgray;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+td {
+    border:1px solid lightgray;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+caption {
+    font-size: 9px;
+    padding: 10px;
+}
+
+#logo {
+    width: 150px;
+}
+
+.nadruk {
+    font-weight: bold;
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ff6434;
+    color: white;
+    font-size: 32px;
+  }
+  
