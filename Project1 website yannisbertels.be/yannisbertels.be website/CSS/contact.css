@@ -1,0 +1,133 @@
+body, header {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+    background-color: rgb(64, 61, 57);
+    color: rgb(255, 252, 242);
+    font-size: 20px;
+}
+
+nav {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+
+    float: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 36, 34);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 252, 242);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex: 1;
+}
+
+li a:hover {
+    background-color: rgb(235, 94, 40);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: rgb(235, 94, 40);
+    text-align: center;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: rgb(204, 197, 185);
+}
+
+.link:visited {
+    color: rgb(235, 94, 40);
+}
+
+.afbeelding {
+    height: 300px;
+
+}
+
+.active {
+    background-color: rgb(235, 94, 40);
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.text {
+    flex: 1;
+    max-width: 60%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.img {
+    flex: 0 0 250px;
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.form {
+    font-weight: bold;
+    color: rgb(37, 36, 34);
+    background-color: white;
+    padding: 30px;
+    margin: 50px auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: "Playfair", serif;
+    border: 1px solid rgb(37, 36, 34);
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(235, 94, 40);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Playfair", serif;
+}
+
+.footer {
+    text-align: center;
+}

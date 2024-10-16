@@ -1,0 +1,95 @@
+body, header {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+    background-color: rgb(64, 61, 57);
+    color: rgb(255, 252, 242);
+    font-size: 20px;
+}
+
+nav {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+
+    float: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 36, 34);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 252, 242);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex: 1;
+}
+
+li a:hover {
+    background-color: rgb(235, 94, 40);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: rgb(235, 94, 40);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(235, 94, 40);
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.afbeelding {
+    height: 200px;
+
+}
+
+.active {
+    background-color: rgb(235, 94, 40);
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.text-links {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+    width: 1200px;
+}
+
+.tekst-rechts {
+    width: 50%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    width: 1200px;
+
+}
+
+.footer {
+    text-align: center;
+}
+
